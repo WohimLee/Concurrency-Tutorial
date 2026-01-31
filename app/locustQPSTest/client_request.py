@@ -1,9 +1,11 @@
 
 
-import asyncio
-import websockets
 import uuid
 import json
+import asyncio
+import requests
+import websockets
+
 
 async def send_request():
     uri = "ws://localhost:8000/ws"
@@ -23,5 +25,8 @@ async def send_request():
         response = await websocket.recv()
         print("Received:", response)
 
-# 启动 WebSocket 客户端
-asyncio.run(send_request())
+
+
+if __name__ == "__main__":
+    # 启动 WebSocket 客户端
+    asyncio.run(send_request())

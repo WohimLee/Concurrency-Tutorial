@@ -1,5 +1,5 @@
 [project]
-name = "concurrency-tutorial"
+name = "web-and-concurrency-tutorial"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
