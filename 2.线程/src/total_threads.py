@@ -11,7 +11,6 @@ import psutil
 # print(f"Total number of threads: {total_threads}")
 
 
-
 # 如果你想进一步控制哪些进程的信息需要被访问，可以使用 psutil.Process() 对象获取特定进程的线程数，并捕获异常。
 
 total_threads = 0
